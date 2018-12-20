@@ -1,0 +1,184 @@
+@import base
+@import slick
+
+$fondo: #ebecec
+$dorado: #edb854
+$gris: #cccccc
+.cien
+	width: 100%
+
+.m-top--40px
+	margin-top: -40px
+
+body
+	background-color: $fondo !important
+	color: black
+	padding-top: 0px
+.navbar
+	background: white
+	border-bottom: 1px solid red
+	img
+		width: 110px
+		height: auto
+		display: block
+.navbar-toggler
+	span.navbar-toggler-bar
+		height: 4px
+		margin: 2px 0
+		background: $dorado
+		border-radius: 0
+		display: block
+	&:hover
+		outline: none
+.nav-item
+	a
+		color: black
+		text-align: center
+	&.active
+		a
+			color: $dorado
+	&.social
+		text-align: center
+		padding: 20px 0
+		a
+			font-size: 2em
+.inner-top-menu
+	display: flex
+	align-items: center
+	justify-content: space-between
+	width: 100%
+.main-video-container
+	height: 325px
+	width: 100%
+	display: block
+	#myVideo
+		position: relative
+		right: 0
+		bottom: 0
+		width: 100% 
+		height: 100%
+h2.title
+	font-size: 1.3em
+	span
+		background: white
+		line-height: 1.4em
+	&.first-title
+	margin-top: -40px
+.about-us-carousel
+	margin-top: 30px
+	margin-bottom: 40px
+	.item
+		img
+			width: 100%
+			height: auto
+			display: block
+.slick-dots
+	padding: 0
+	margin: 0
+	text-align: center
+	li
+		display: inline-block
+		margin: 10px 5px
+		width: 20px
+		height: 20px
+		transition: border .5s ease
+		border: 1px solid transparent
+		padding: 3px
+		border-radius: 50%
+		button
+			width: 10px
+			height: 10px
+			display: inline-block
+			overflow: hidden
+			background-color: $dorado
+			color: $dorado
+			border-radius: 50%
+			padding: 0
+			&:focus
+				outline: none
+		&.slick-active
+			border: 1px solid $dorado
+			transition: border .5s ease
+.brands
+	padding: 0
+	margin: 30px 0
+	li
+		display: inline-block
+		text-align: center
+		margin: 15px 0
+		img
+			width: 70%
+			height: auto
+			display: inline-block
+#contactForm
+	margin: 30px 0
+.form-control
+	border-color: $gris
+	border-radius: 0
+textarea.form-control
+	resize: none
+.btn-primary
+	background-color: transparent
+	border: 2px solid $dorado !important
+	color: $dorado
+	text-transform: uppercase
+	border-radius: 0
+	width: 100%
+	font-weight: bold
+@media screen and (min-width: 375px)
+	h2.title
+		&.first-title
+			margin-top: 10px
+@media screen and (min-width: 510px)
+	.main-video-container
+		height: 425px
+@media screen and (min-width: 670px)
+	.main-video-container
+		height: 525px
+@media screen and (min-width: 768px)
+	.inner-top-menu
+		width: 30%
+	.navbar-nav
+		width: 100%
+		justify-content: flex-end
+		align-items: center
+	.brands
+		li
+			display: inline-block
+			width: 32%
+			margin: 50px 0 90px 0
+	textarea.form-control
+		height: 80px
+@media screen and (min-width: 992px)
+	.navbar-brand
+		img
+			width: 200px
+	.navbar-expand-md
+		.navbar-nav
+			.nav-link
+				padding-right: 1.5rem
+				padding-left: 1.5rem
+	.main-video-container
+		height: 850px
+	h2.title.first-title
+		margin-top: -50px
+	textarea.form-control
+		height: 120px
+@media screen and (min-width: 1200px)
+	.main-video-container
+		height: 960px
+@media screen and (min-width: 1520px)
+	.main-video-container
+		height: 1170px
+@media screen and (min-width: 1850px)
+	.main-video-container
+		height: 1280px
+@media screen and (min-width: 2000px)
+	.main-video-container
+		height: 1390px
+@media screen and (min-width: 2200px)
+	.main-video-container
+		height: 1500px
+@media screen and (min-width: 2400px)
+	.main-video-container
+		height: 1700px
