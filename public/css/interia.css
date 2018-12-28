@@ -531,6 +531,11 @@ footer .credits a {
     font-size: 1.4em !important;
   }
 }
+@media screen and (min-width: 1340px) {
+  h2.title.first-title {
+    margin-top: -20px;
+  }
+}
 @media screen and (min-width: 1520px) {
   .main-video-container {
     height: 1170px;
