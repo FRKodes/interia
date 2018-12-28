@@ -4,7 +4,7 @@
 <div class="container-fluid" id="inicio">
 	<div class="row">
 		<div class="main-video-container">
-			<video autoplay muted loop id="myVideo">
+			<video playsinline autoplay muted loop id="myVideo">
 				<source src="video/video_interia.mp4" type="video/mp4">
 			</video>
 		</div>
