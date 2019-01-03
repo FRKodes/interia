@@ -28,7 +28,11 @@
 
 		<div class="col-xs-12 col-md-6">
 			<p class="about-us-text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil necessitatibus, dolore nesciunt non sit minus sint! Nisi vero necessitatibus minus reiciendis ad corrupti, voluptatum nesciunt officia ut quos laudantium nam!
+				Generamos espacios atendiendo función, forma y tecnología, es decir, prestamos atención a tus actividades dentro y fuera del espacio con la intención de fomentar bienestar integral entre los espacios de tu hogar. <br><br>
+
+				Gracias a herramientas tecnológicas, integramos todo tu espacio en un módulo inteligente, donde podrás no solo controlar la iluminación, sino el comportamiento de tu cocina de manera remota con ayuda de nuestros aliados estratégicos. <br><br>
+
+				Nos preocupamos por no solo diseñar, sino por generar soluciones personalizadas. Finalmente, no nos detenemos en la cocina, dejamos preparado el terreno de transición para que con el tiempo sea toda tu residencia la que adquiera una imagen singular.
 			</p>
 		</div>
 
