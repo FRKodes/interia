@@ -119,6 +119,10 @@
   color: #edb854;
 }
 
+.white {
+  color: white;
+}
+
 .m-top--40px {
   margin-top: -40px;
 }
