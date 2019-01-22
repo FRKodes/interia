@@ -5,12 +5,12 @@
 	<title>Contact Email</title>
 </head>
 <body>
-	Hola,
-	<p>{{ $nombre }} ha escrito un mensaje:</p>
+	
+	<p>Hola, <b>{{ $nombre }}</b> ha escrito un mensaje:</p>
 	 
 	<div>
 		<p>
-			<b>Datos de contacto:</b> <br> <br>
+			<b>Datos de contacto:</b> <br>
 			Email: {{ $email }} <br>
 			Telefono: {{ $telefono }} <br>
 			Mensaje: {{ $mensaje }}

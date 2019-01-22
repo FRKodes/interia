@@ -37,7 +37,7 @@ class ContactMail extends Mailable
      */
     public function build(Request $request)
     {
-        return $this->from('hello@interiastudio.com')
+        return $this->from('contacto@interia.com.mx')
                             ->view('emails.contact')
                             ->text('emails.contact_plain')
                             ->with(

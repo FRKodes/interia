@@ -17,6 +17,6 @@ class MailController extends Controller
         $objContact->sender = 'SenderUserName';
         $objContact->receiver = 'ReceiverUserName';
  
-        Mail::to("frkalderon@gmail.com")->send(new ContactMail($objContact));
+        Mail::to('contacto@interia.com.mx')->bcc("frkalderon@gmail.com")->send(new ContactMail($objContact));
     }
 }

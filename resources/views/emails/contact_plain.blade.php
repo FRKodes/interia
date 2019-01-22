@@ -1,16 +1,7 @@
-Hello ,
-This is a demo email for testing purposes! Also, it's the HTML version.
+Hola, {{ $nombre }} escribió un mensaje desde la página web.
  
-Demo object values:
+Datos de contacto:
  
-Demo One: 
-Demo Two: 
- 
-Values passed by With method:
- 
-nombre: {{ $nombre }}
-email: {{ $email }}
-telefono: {{ $telefono }}
-mensaje: {{ $mensaje }}
- 
-Thank You,
+Email: {{ $email }}
+Telefono: {{ $telefono }}
+Mensaje: {{ $mensaje }}
