@@ -18,8 +18,8 @@
 				<li class="nav-item"><a class="nav-link" href="#proyectos">PROYECTOS</a></li>
 				<li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
 				<li class="nav-item social">
-					<a class="icon-fb" href="https://www.facebook.com/" target="_blank" title="Ver el perfil de Interia en Facebook"></a>
-					<a class="icon-ig" href="https://www.instagram.com/" target="_blank" title="Ver el perfil de Interia en Instagram"></a>
+					{{-- <a class="icon-fb" href="https://www.facebook.com/" target="_blank" title="Ver el perfil de Interia en Facebook"></a> --}}
+					<a class="icon-ig" href="https://www.instagram.com/interiamx" target="_blank" title="Ver el perfil de Interia en Instagram"></a>
 				</li>
 			</ul>
 		</div>
