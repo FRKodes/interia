@@ -197,6 +197,17 @@ body {
   height: 100%;
 }
 
+h1.title {
+  font-size: 1.3em;
+}
+h1.title span {
+  background: white;
+  line-height: 1.4em;
+}
+h1.title.first-title {
+  margin-top: -40px;
+}
+
 h2.title {
   font-size: 1.3em;
 }
@@ -406,6 +417,10 @@ footer .credits a {
 }
 
 @media screen and (min-width: 375px) {
+  h1.title.first-title {
+    margin-top: 10px;
+  }
+
   h2.title.first-title {
     margin-top: 10px;
   }
@@ -509,6 +524,10 @@ footer .credits a {
     height: 850px;
   }
 
+  h1.title.first-title {
+    margin-top: -50px;
+  }
+
   h2.title.first-title {
     margin-top: -50px;
   }
@@ -536,6 +555,10 @@ footer .credits a {
   }
 }
 @media screen and (min-width: 1340px) {
+  h1.title.first-title {
+    margin-top: -20px;
+  }
+
   h2.title.first-title {
     margin-top: -20px;
   }

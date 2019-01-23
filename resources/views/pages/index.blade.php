@@ -14,9 +14,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-md-12">
-			<h2 class="title first-title">
+			<h1 class="title first-title">
 				<span> "DISEÑAMOS ESPACIOS NOVEDOSOS E INTELIGENTES CON EL PROPÓSITO DE SOLUCIONAR TAREAS COTIDIANAS "</span>
-			</h2>
+			</h1>
 		</div>
 
 		<div class="col-xs-12 col-md-6">
