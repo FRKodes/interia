@@ -20,3 +20,9 @@ mix.styles([
 ], 'public/css/interia-all.css');
 
 
+mix.combine([
+	'public/js/jquery.js',
+	'public/js/bootstrap.min.js',
+	'public/js/slick.js',
+	'public/js/app.js'
+	], 'public/js/interia-all.js');

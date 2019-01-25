@@ -17,8 +17,6 @@
         <header>@include('partials.header')</header>
         <section>@yield('content')</section>
         <footer>@include('partials.footer')</footer>
-        <script src="js/jquery.js"></script>
-        <script src="js/slick.js"></script>
-        <script src="js/app.js"></script>
+        <script src="js/interia-all.js"></script>
     </body>
 </html>

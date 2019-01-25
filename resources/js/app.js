@@ -167,6 +167,11 @@ $(function() {
 
 });
 
+$('a.nav-link').on('click', function () {
+	$('.navbar-collapse').removeClass('show');
+});
+
+
 
 $(function () {
 	var formSettings = {

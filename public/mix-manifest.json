@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/interia.css": "/css/interia.css",
-    "/css/interia-all.css": "/css/interia-all.css"
+    "/css/interia-all.css": "/css/interia-all.css",
+    "/js/interia-all.js": "/js/interia-all.js"
 }

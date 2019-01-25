@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="inner-top-menu">
 			
-			<a class="navbar-brand" href="#"><img src="images/logo_interia_color.svg" alt="logo interia color"></a>
+			<a class="navbar-brand" href="/"><img src="images/logo_interia_color.svg" alt="logo interia color"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon navbar-toggler-bar"></span>
