@@ -12,4 +12,6 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('google023b1f1f6a52451d', 'PagesController@google023b1f1f6a52451d');
+Route::get('google023b1f1f6a52451d.html', 'PagesController@google023b1f1f6a52451d');
 Route::post('sendmail', 'MailController@send');
