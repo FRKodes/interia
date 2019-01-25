@@ -13,3 +13,10 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/interia.sass', 'public/css');
+
+mix.styles([
+    'public/css/icons-font.css',
+    'public/css/interia.css'
+], 'public/css/interia-all.css');
+
+
